@@ -1,0 +1,313 @@
+2015-07-27 12:53:29,069 INFO org.apache.spark.SparkContext: Running Spark version 1.3.0
+2015-07-27 12:53:31,590 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-07-27 12:53:33,389 INFO org.apache.spark.SecurityManager: Changing view acls to: training
+2015-07-27 12:53:33,393 INFO org.apache.spark.SecurityManager: Changing modify acls to: training
+2015-07-27 12:53:33,396 INFO org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(training); users with modify permissions: Set(training)
+2015-07-27 12:53:37,226 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:37,804 INFO Remoting: Starting remoting
+2015-07-27 12:53:38,680 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:38,807 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:38,837 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:38,860 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:38,960 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:39,387 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:39,511 INFO Remoting: Starting remoting
+2015-07-27 12:53:39,640 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:39,650 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:39,652 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:39,652 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:39,661 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:40,143 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:40,299 INFO Remoting: Starting remoting
+2015-07-27 12:53:40,395 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:40,406 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:40,410 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:40,411 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:40,415 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:40,810 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:40,966 INFO Remoting: Starting remoting
+2015-07-27 12:53:41,063 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:41,076 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:41,078 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:41,091 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:41,095 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:41,656 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:41,793 INFO Remoting: Starting remoting
+2015-07-27 12:53:41,873 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:41,889 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:41,896 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:41,897 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:41,901 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:42,339 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:42,493 INFO Remoting: Starting remoting
+2015-07-27 12:53:42,592 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:42,604 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:42,607 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:42,618 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:42,619 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:43,095 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:43,231 INFO Remoting: Starting remoting
+2015-07-27 12:53:43,309 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:43,324 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:43,330 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:43,331 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:43,333 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:43,734 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:43,868 INFO Remoting: Starting remoting
+2015-07-27 12:53:43,935 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:43,943 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:43,948 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:43,948 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:43,957 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:44,404 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:44,539 INFO Remoting: Starting remoting
+2015-07-27 12:53:44,618 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:44,636 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:44,638 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:45,049 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:45,151 INFO Remoting: Starting remoting
+2015-07-27 12:53:45,237 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:45,247 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:45,249 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:45,693 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:45,788 INFO Remoting: Starting remoting
+2015-07-27 12:53:45,860 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:45,872 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:45,880 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:45,881 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:45,887 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:46,281 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:46,418 INFO Remoting: Starting remoting
+2015-07-27 12:53:46,486 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:46,497 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:46,497 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:46,507 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:46,956 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:47,108 INFO Remoting: Starting remoting
+2015-07-27 12:53:47,174 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:47,191 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:47,196 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:47,199 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:47,202 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:47,867 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:48,032 INFO Remoting: Starting remoting
+2015-07-27 12:53:48,119 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:48,129 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:48,132 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:48,133 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:48,134 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:48,821 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:48,973 INFO Remoting: Starting remoting
+2015-07-27 12:53:49,052 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:49,069 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:49,071 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:49,075 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:49,076 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:49,644 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:49,796 INFO Remoting: Starting remoting
+2015-07-27 12:53:49,879 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:49,886 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:49,887 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:49,889 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:53:49,908 WARN org.apache.spark.util.Utils: Service 'sparkDriver' could not bind on port 0. Attempting port 1.
+2015-07-27 12:53:50,506 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:53:50,672 INFO Remoting: Starting remoting
+2015-07-27 12:53:50,743 ERROR akka.remote.transport.netty.NettyTransport: failed to bind to easternct.bigdata.edu/192.168.2.187:0, shutting down Netty transport
+2015-07-27 12:53:50,751 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 12:53:50,751 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 12:53:50,764 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+2015-07-27 12:59:06,421 INFO org.apache.spark.SparkContext: Running Spark version 1.3.0
+2015-07-27 12:59:08,093 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-07-27 12:59:09,680 INFO org.apache.spark.SecurityManager: Changing view acls to: training
+2015-07-27 12:59:09,683 INFO org.apache.spark.SecurityManager: Changing modify acls to: training
+2015-07-27 12:59:09,686 INFO org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(training); users with modify permissions: Set(training)
+2015-07-27 12:59:12,813 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 12:59:13,337 INFO Remoting: Starting remoting
+2015-07-27 12:59:14,239 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@easternct.bigdata.edu:60343]
+2015-07-27 12:59:14,306 INFO org.apache.spark.util.Utils: Successfully started service 'sparkDriver' on port 60343.
+2015-07-27 12:59:14,462 INFO org.apache.spark.SparkEnv: Registering MapOutputTracker
+2015-07-27 12:59:14,590 INFO org.apache.spark.SparkEnv: Registering BlockManagerMaster
+2015-07-27 12:59:14,716 INFO org.apache.spark.storage.DiskBlockManager: Created local directory at /tmp/spark-8565d9e0-16c8-459a-ac9e-e3b56ed22ac5/blockmgr-3de22018-bdaa-4b98-a825-14b626c169c6
+2015-07-27 12:59:14,748 INFO org.apache.spark.storage.MemoryStore: MemoryStore started with capacity 500.1 MB
+2015-07-27 12:59:15,774 INFO org.apache.spark.HttpFileServer: HTTP File server directory is /tmp/spark-3118c348-bb97-4f19-a393-53d7fb4a0c57/httpd-25cfacd7-1aae-48fc-8a53-d73e032c3026
+2015-07-27 12:59:15,834 INFO org.apache.spark.HttpServer: Starting HTTP Server
+2015-07-27 12:59:16,473 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 12:59:16,576 INFO org.spark-project.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:54643
+2015-07-27 12:59:16,583 INFO org.apache.spark.util.Utils: Successfully started service 'HTTP file server' on port 54643.
+2015-07-27 12:59:16,737 INFO org.apache.spark.SparkEnv: Registering OutputCommitCoordinator
+2015-07-27 12:59:37,531 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 12:59:37,695 INFO org.spark-project.jetty.server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+2015-07-27 12:59:37,699 INFO org.apache.spark.util.Utils: Successfully started service 'SparkUI' on port 4040.
+2015-07-27 12:59:37,732 INFO org.apache.spark.ui.SparkUI: Started SparkUI at http://easternct.bigdata.edu:4040
+2015-07-27 12:59:38,996 INFO org.apache.spark.executor.Executor: Starting executor ID <driver> on host localhost
+2015-07-27 12:59:39,066 INFO org.apache.spark.util.AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@easternct.bigdata.edu:60343/user/HeartbeatReceiver
+2015-07-27 12:59:40,040 INFO org.apache.spark.network.netty.NettyBlockTransferService: Server created on 55288
+2015-07-27 12:59:40,046 INFO org.apache.spark.storage.BlockManagerMaster: Trying to register BlockManager
+2015-07-27 12:59:40,052 INFO org.apache.spark.storage.BlockManagerMasterActor: Registering block manager localhost:55288 with 500.1 MB RAM, BlockManagerId(<driver>, localhost, 55288)
+2015-07-27 12:59:40,059 INFO org.apache.spark.storage.BlockManagerMaster: Registered BlockManager
+2015-07-27 12:59:50,707 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(186279) called with curMem=0, maxMem=524400721
+2015-07-27 12:59:50,717 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 181.9 KB, free 499.9 MB)
+2015-07-27 12:59:51,083 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(26111) called with curMem=186279, maxMem=524400721
+2015-07-27 12:59:51,086 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 25.5 KB, free 499.9 MB)
+2015-07-27 12:59:51,098 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:55288 (size: 25.5 KB, free: 500.1 MB)
+2015-07-27 12:59:51,118 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_0_piece0
+2015-07-27 12:59:51,142 INFO org.apache.spark.SparkContext: Created broadcast 0 from textFile at SparkExamples.java:23
+2015-07-27 13:04:33,989 INFO org.apache.spark.SparkContext: Running Spark version 1.3.0
+2015-07-27 13:04:35,565 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-07-27 13:04:37,060 INFO org.apache.spark.SecurityManager: Changing view acls to: training
+2015-07-27 13:04:37,065 INFO org.apache.spark.SecurityManager: Changing modify acls to: training
+2015-07-27 13:04:37,068 INFO org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(training); users with modify permissions: Set(training)
+2015-07-27 13:04:40,217 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 13:04:40,765 INFO Remoting: Starting remoting
+2015-07-27 13:04:41,640 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@easternct.bigdata.edu:49422]
+2015-07-27 13:04:41,690 INFO org.apache.spark.util.Utils: Successfully started service 'sparkDriver' on port 49422.
+2015-07-27 13:04:41,793 INFO org.apache.spark.SparkEnv: Registering MapOutputTracker
+2015-07-27 13:04:41,896 INFO org.apache.spark.SparkEnv: Registering BlockManagerMaster
+2015-07-27 13:04:41,980 INFO org.apache.spark.storage.DiskBlockManager: Created local directory at /tmp/spark-c07283c5-5984-483a-897d-0fdcfa399b9e/blockmgr-6ef0d317-8a0f-4ff8-8cd1-0df712c7de58
+2015-07-27 13:04:42,003 INFO org.apache.spark.storage.MemoryStore: MemoryStore started with capacity 500.1 MB
+2015-07-27 13:04:43,029 INFO org.apache.spark.HttpFileServer: HTTP File server directory is /tmp/spark-12067bb2-c2bb-47cb-8867-e5ccd60f47da/httpd-b1d3abd1-b221-456e-b3ff-7238a206e8be
+2015-07-27 13:04:43,052 INFO org.apache.spark.HttpServer: Starting HTTP Server
+2015-07-27 13:04:43,549 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 13:04:43,642 INFO org.spark-project.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:55230
+2015-07-27 13:04:43,646 INFO org.apache.spark.util.Utils: Successfully started service 'HTTP file server' on port 55230.
+2015-07-27 13:04:43,765 INFO org.apache.spark.SparkEnv: Registering OutputCommitCoordinator
+2015-07-27 13:05:04,368 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 13:05:04,513 INFO org.spark-project.jetty.server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+2015-07-27 13:05:04,516 INFO org.apache.spark.util.Utils: Successfully started service 'SparkUI' on port 4040.
+2015-07-27 13:05:04,528 INFO org.apache.spark.ui.SparkUI: Started SparkUI at http://easternct.bigdata.edu:4040
+2015-07-27 13:05:05,675 INFO org.apache.spark.executor.Executor: Starting executor ID <driver> on host localhost
+2015-07-27 13:05:05,745 INFO org.apache.spark.util.AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@easternct.bigdata.edu:49422/user/HeartbeatReceiver
+2015-07-27 13:05:06,595 INFO org.apache.spark.network.netty.NettyBlockTransferService: Server created on 44094
+2015-07-27 13:05:06,600 INFO org.apache.spark.storage.BlockManagerMaster: Trying to register BlockManager
+2015-07-27 13:05:06,604 INFO org.apache.spark.storage.BlockManagerMasterActor: Registering block manager localhost:44094 with 500.1 MB RAM, BlockManagerId(<driver>, localhost, 44094)
+2015-07-27 13:05:06,615 INFO org.apache.spark.storage.BlockManagerMaster: Registered BlockManager
+2015-07-27 13:05:40,243 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(186279) called with curMem=0, maxMem=524400721
+2015-07-27 13:05:40,253 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 181.9 KB, free 499.9 MB)
+2015-07-27 13:05:40,530 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(26111) called with curMem=186279, maxMem=524400721
+2015-07-27 13:05:40,535 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 25.5 KB, free 499.9 MB)
+2015-07-27 13:05:40,541 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:44094 (size: 25.5 KB, free: 500.1 MB)
+2015-07-27 13:05:40,548 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_0_piece0
+2015-07-27 13:05:40,571 INFO org.apache.spark.SparkContext: Created broadcast 0 from textFile at SparkExamples.java:23
+2015-07-27 13:07:38,886 INFO org.apache.spark.SparkContext: Running Spark version 1.3.0
+2015-07-27 13:07:40,586 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-07-27 13:07:42,075 INFO org.apache.spark.SecurityManager: Changing view acls to: training
+2015-07-27 13:07:42,079 INFO org.apache.spark.SecurityManager: Changing modify acls to: training
+2015-07-27 13:07:42,081 INFO org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(training); users with modify permissions: Set(training)
+2015-07-27 13:07:45,204 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-07-27 13:07:45,738 INFO Remoting: Starting remoting
+2015-07-27 13:07:46,617 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@easternct.bigdata.edu:45020]
+2015-07-27 13:07:46,665 INFO org.apache.spark.util.Utils: Successfully started service 'sparkDriver' on port 45020.
+2015-07-27 13:07:46,791 INFO org.apache.spark.SparkEnv: Registering MapOutputTracker
+2015-07-27 13:07:46,865 INFO org.apache.spark.SparkEnv: Registering BlockManagerMaster
+2015-07-27 13:07:46,953 INFO org.apache.spark.storage.DiskBlockManager: Created local directory at /tmp/spark-52091eae-7cda-4ebf-b834-e50207cf2a14/blockmgr-17c438c6-f542-4757-91d2-5ac1d71c69fd
+2015-07-27 13:07:46,972 INFO org.apache.spark.storage.MemoryStore: MemoryStore started with capacity 500.1 MB
+2015-07-27 13:07:47,997 INFO org.apache.spark.HttpFileServer: HTTP File server directory is /tmp/spark-6bd02795-146e-4726-8d17-b0c0c016f577/httpd-a9db37e7-5671-4233-9e01-5c25d4cbadea
+2015-07-27 13:07:48,020 INFO org.apache.spark.HttpServer: Starting HTTP Server
+2015-07-27 13:07:48,526 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 13:07:48,622 INFO org.spark-project.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:45211
+2015-07-27 13:07:48,625 INFO org.apache.spark.util.Utils: Successfully started service 'HTTP file server' on port 45211.
+2015-07-27 13:07:48,814 INFO org.apache.spark.SparkEnv: Registering OutputCommitCoordinator
+2015-07-27 13:08:09,435 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-07-27 13:08:09,582 INFO org.spark-project.jetty.server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+2015-07-27 13:08:09,588 INFO org.apache.spark.util.Utils: Successfully started service 'SparkUI' on port 4040.
+2015-07-27 13:08:09,612 INFO org.apache.spark.ui.SparkUI: Started SparkUI at http://easternct.bigdata.edu:4040
+2015-07-27 13:08:10,810 INFO org.apache.spark.executor.Executor: Starting executor ID <driver> on host localhost
+2015-07-27 13:08:10,869 INFO org.apache.spark.util.AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@easternct.bigdata.edu:45020/user/HeartbeatReceiver
+2015-07-27 13:08:11,687 INFO org.apache.spark.network.netty.NettyBlockTransferService: Server created on 56737
+2015-07-27 13:08:11,695 INFO org.apache.spark.storage.BlockManagerMaster: Trying to register BlockManager
+2015-07-27 13:08:11,698 INFO org.apache.spark.storage.BlockManagerMasterActor: Registering block manager localhost:56737 with 500.1 MB RAM, BlockManagerId(<driver>, localhost, 56737)
+2015-07-27 13:08:11,706 INFO org.apache.spark.storage.BlockManagerMaster: Registered BlockManager
+2015-07-27 13:08:18,338 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(186279) called with curMem=0, maxMem=524400721
+2015-07-27 13:08:18,349 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 181.9 KB, free 499.9 MB)
+2015-07-27 13:08:18,629 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(26111) called with curMem=186279, maxMem=524400721
+2015-07-27 13:08:18,633 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 25.5 KB, free 499.9 MB)
+2015-07-27 13:08:18,641 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:56737 (size: 25.5 KB, free: 500.1 MB)
+2015-07-27 13:08:18,646 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_0_piece0
+2015-07-27 13:08:18,672 INFO org.apache.spark.SparkContext: Created broadcast 0 from textFile at SparkExamples.java:23
+2015-07-27 13:08:28,937 INFO org.apache.hadoop.mapred.FileInputFormat: Total input paths to process : 1
+2015-07-27 13:08:29,074 INFO org.apache.spark.SparkContext: Starting job: count at SparkExamples.java:28
+2015-07-27 13:08:29,137 INFO org.apache.spark.scheduler.DAGScheduler: Got job 0 (count at SparkExamples.java:28) with 1 output partitions (allowLocal=false)
+2015-07-27 13:08:29,143 INFO org.apache.spark.scheduler.DAGScheduler: Final stage: Stage 0(count at SparkExamples.java:28)
+2015-07-27 13:08:29,145 INFO org.apache.spark.scheduler.DAGScheduler: Parents of final stage: List()
+2015-07-27 13:08:29,169 INFO org.apache.spark.scheduler.DAGScheduler: Missing parents: List()
+2015-07-27 13:08:29,226 INFO org.apache.spark.scheduler.DAGScheduler: Submitting Stage 0 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23), which has no missing parents
+2015-07-27 13:08:29,505 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(2688) called with curMem=212390, maxMem=524400721
+2015-07-27 13:08:29,508 INFO org.apache.spark.storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 2.6 KB, free 499.9 MB)
+2015-07-27 13:08:29,513 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(1976) called with curMem=215078, maxMem=524400721
+2015-07-27 13:08:29,519 INFO org.apache.spark.storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 1976.0 B, free 499.9 MB)
+2015-07-27 13:08:29,520 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:56737 (size: 1976.0 B, free: 500.1 MB)
+2015-07-27 13:08:29,521 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_1_piece0
+2015-07-27 13:08:29,523 INFO org.apache.spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:839
+2015-07-27 13:08:29,552 INFO org.apache.spark.scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 0 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23)
+2015-07-27 13:08:29,568 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+2015-07-27 13:08:29,727 INFO org.apache.spark.scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, PROCESS_LOCAL, 1335 bytes)
+2015-07-27 13:08:29,762 INFO org.apache.spark.executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+2015-07-27 13:08:29,902 INFO org.apache.spark.rdd.HadoopRDD: Input split: file:/home/training/training_materials/developer/data/shakespeare/poems:0+268140
+2015-07-27 13:08:30,074 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+2015-07-27 13:08:30,075 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2015-07-27 13:08:30,076 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+2015-07-27 13:08:30,076 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2015-07-27 13:08:30,077 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+2015-07-27 13:08:30,443 INFO org.apache.spark.executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1830 bytes result sent to driver
+2015-07-27 13:08:30,522 INFO org.apache.spark.scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 842 ms on localhost (1/1)
+2015-07-27 13:08:30,525 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2015-07-27 13:08:30,541 INFO org.apache.spark.scheduler.DAGScheduler: Stage 0 (count at SparkExamples.java:28) finished in 0.922 s
+2015-07-27 13:08:30,586 INFO org.apache.spark.scheduler.DAGScheduler: Job 0 finished: count at SparkExamples.java:28, took 1.505664 s
+2015-07-27 13:08:41,611 INFO org.apache.spark.SparkContext: Starting job: first at SparkExamples.java:29
+2015-07-27 13:08:41,612 INFO org.apache.spark.scheduler.DAGScheduler: Got job 1 (first at SparkExamples.java:29) with 1 output partitions (allowLocal=true)
+2015-07-27 13:08:41,612 INFO org.apache.spark.scheduler.DAGScheduler: Final stage: Stage 1(first at SparkExamples.java:29)
+2015-07-27 13:08:41,612 INFO org.apache.spark.scheduler.DAGScheduler: Parents of final stage: List()
+2015-07-27 13:08:41,618 INFO org.apache.spark.scheduler.DAGScheduler: Missing parents: List()
+2015-07-27 13:08:41,619 INFO org.apache.spark.scheduler.DAGScheduler: Submitting Stage 1 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23), which has no missing parents
+2015-07-27 13:08:41,625 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(2712) called with curMem=217054, maxMem=524400721
+2015-07-27 13:08:41,628 INFO org.apache.spark.storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 2.6 KB, free 499.9 MB)
+2015-07-27 13:08:41,632 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(1998) called with curMem=219766, maxMem=524400721
+2015-07-27 13:08:41,633 INFO org.apache.spark.storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1998.0 B, free 499.9 MB)
+2015-07-27 13:08:41,635 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:56737 (size: 1998.0 B, free: 500.1 MB)
+2015-07-27 13:08:41,637 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_2_piece0
+2015-07-27 13:08:41,642 INFO org.apache.spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:839
+2015-07-27 13:08:41,644 INFO org.apache.spark.scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 1 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23)
+2015-07-27 13:08:41,646 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+2015-07-27 13:08:41,648 INFO org.apache.spark.scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, localhost, PROCESS_LOCAL, 1335 bytes)
+2015-07-27 13:08:41,649 INFO org.apache.spark.executor.Executor: Running task 0.0 in stage 1.0 (TID 1)
+2015-07-27 13:08:41,657 INFO org.apache.spark.rdd.HadoopRDD: Input split: file:/home/training/training_materials/developer/data/shakespeare/poems:0+268140
+2015-07-27 13:08:41,676 INFO org.apache.spark.executor.Executor: Finished task 0.0 in stage 1.0 (TID 1). 1795 bytes result sent to driver
+2015-07-27 13:08:41,700 INFO org.apache.spark.scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 42 ms on localhost (1/1)
+2015-07-27 13:08:41,703 INFO org.apache.spark.scheduler.DAGScheduler: Stage 1 (first at SparkExamples.java:29) finished in 0.047 s
+2015-07-27 13:08:41,706 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2015-07-27 13:08:41,706 INFO org.apache.spark.scheduler.DAGScheduler: Job 1 finished: first at SparkExamples.java:29, took 0.093114 s
+2015-07-27 13:08:58,437 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2015-07-27 13:08:58,439 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2015-07-27 13:08:58,441 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+2015-07-27 13:08:58,442 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+2015-07-27 13:08:58,443 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2015-07-27 13:08:58,444 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2015-07-27 13:08:58,445 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2015-07-27 13:08:58,446 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+2015-07-27 13:08:58,448 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2015-07-27 13:08:58,448 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+2015-07-27 13:08:58,450 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2015-07-27 13:08:58,451 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2015-07-27 13:08:58,452 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2015-07-27 13:08:58,453 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+2015-07-27 13:08:58,456 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2015-07-27 13:08:58,457 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2015-07-27 13:08:58,458 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2015-07-27 13:08:58,459 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2015-07-27 13:08:58,460 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2015-07-27 13:08:58,461 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+2015-07-27 13:08:58,463 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2015-07-27 13:08:58,464 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2015-07-27 13:08:58,468 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2015-07-27 13:08:58,469 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2015-07-27 13:08:58,536 INFO org.apache.spark.ui.SparkUI: Stopped Spark web UI at http://easternct.bigdata.edu:4040
+2015-07-27 13:08:58,566 INFO org.apache.spark.scheduler.DAGScheduler: Stopping DAGScheduler
+2015-07-27 13:08:58,671 INFO org.apache.spark.MapOutputTrackerMasterActor: MapOutputTrackerActor stopped!
+2015-07-27 13:08:58,738 INFO org.apache.spark.storage.MemoryStore: MemoryStore cleared
+2015-07-27 13:08:58,753 INFO org.apache.spark.storage.BlockManager: BlockManager stopped
+2015-07-27 13:08:58,772 INFO org.apache.spark.storage.BlockManagerMaster: BlockManagerMaster stopped
+2015-07-27 13:08:58,792 INFO org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorActor: OutputCommitCoordinator stopped!
+2015-07-27 13:08:58,826 INFO org.apache.spark.SparkContext: Successfully stopped SparkContext
+2015-07-27 13:08:58,851 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-07-27 13:08:58,866 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-07-27 13:08:59,123 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.

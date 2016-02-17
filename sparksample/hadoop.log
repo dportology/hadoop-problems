@@ -1,0 +1,123 @@
+2015-08-11 15:09:02,812 INFO org.apache.spark.SparkContext: Running Spark version 1.3.0
+2015-08-11 15:09:04,778 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-08-11 15:09:06,425 INFO org.apache.spark.SecurityManager: Changing view acls to: training
+2015-08-11 15:09:06,429 INFO org.apache.spark.SecurityManager: Changing modify acls to: training
+2015-08-11 15:09:06,432 INFO org.apache.spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(training); users with modify permissions: Set(training)
+2015-08-11 15:09:09,653 INFO akka.event.slf4j.Slf4jLogger: Slf4jLogger started
+2015-08-11 15:09:10,172 INFO Remoting: Starting remoting
+2015-08-11 15:09:11,261 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@easternct.bigdata.edu:47494]
+2015-08-11 15:09:11,320 INFO org.apache.spark.util.Utils: Successfully started service 'sparkDriver' on port 47494.
+2015-08-11 15:09:11,436 INFO org.apache.spark.SparkEnv: Registering MapOutputTracker
+2015-08-11 15:09:11,528 INFO org.apache.spark.SparkEnv: Registering BlockManagerMaster
+2015-08-11 15:09:11,646 INFO org.apache.spark.storage.DiskBlockManager: Created local directory at /tmp/spark-631e9a7d-1cde-487e-bc91-30b544e79f53/blockmgr-befac1a1-af4a-42ee-89e3-308989cf55a7
+2015-08-11 15:09:11,683 INFO org.apache.spark.storage.MemoryStore: MemoryStore started with capacity 500.1 MB
+2015-08-11 15:09:12,738 INFO org.apache.spark.HttpFileServer: HTTP File server directory is /tmp/spark-c15fbd3c-d7a6-435d-ba58-d55606b70f9e/httpd-0172e12a-3138-4b1d-8c33-cc6ddf468d1a
+2015-08-11 15:09:12,805 INFO org.apache.spark.HttpServer: Starting HTTP Server
+2015-08-11 15:09:13,603 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-08-11 15:09:13,716 INFO org.spark-project.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:36273
+2015-08-11 15:09:13,718 INFO org.apache.spark.util.Utils: Successfully started service 'HTTP file server' on port 36273.
+2015-08-11 15:09:13,857 INFO org.apache.spark.SparkEnv: Registering OutputCommitCoordinator
+2015-08-11 15:09:34,531 INFO org.spark-project.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+2015-08-11 15:09:34,708 INFO org.spark-project.jetty.server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+2015-08-11 15:09:34,718 INFO org.apache.spark.util.Utils: Successfully started service 'SparkUI' on port 4040.
+2015-08-11 15:09:34,768 INFO org.apache.spark.ui.SparkUI: Started SparkUI at http://easternct.bigdata.edu:4040
+2015-08-11 15:09:36,325 INFO org.apache.spark.executor.Executor: Starting executor ID <driver> on host localhost
+2015-08-11 15:09:36,384 INFO org.apache.spark.util.AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@easternct.bigdata.edu:47494/user/HeartbeatReceiver
+2015-08-11 15:09:37,392 INFO org.apache.spark.network.netty.NettyBlockTransferService: Server created on 39152
+2015-08-11 15:09:37,399 INFO org.apache.spark.storage.BlockManagerMaster: Trying to register BlockManager
+2015-08-11 15:09:37,402 INFO org.apache.spark.storage.BlockManagerMasterActor: Registering block manager localhost:39152 with 500.1 MB RAM, BlockManagerId(<driver>, localhost, 39152)
+2015-08-11 15:09:37,411 INFO org.apache.spark.storage.BlockManagerMaster: Registered BlockManager
+2015-08-11 15:10:09,851 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(186279) called with curMem=0, maxMem=524400721
+2015-08-11 15:10:09,861 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 181.9 KB, free 499.9 MB)
+2015-08-11 15:10:10,213 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(26111) called with curMem=186279, maxMem=524400721
+2015-08-11 15:10:10,220 INFO org.apache.spark.storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 25.5 KB, free 499.9 MB)
+2015-08-11 15:10:10,238 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:39152 (size: 25.5 KB, free: 500.1 MB)
+2015-08-11 15:10:10,249 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_0_piece0
+2015-08-11 15:10:10,332 INFO org.apache.spark.SparkContext: Created broadcast 0 from textFile at SparkExamples.java:23
+2015-08-11 15:10:26,919 INFO org.apache.hadoop.mapred.FileInputFormat: Total input paths to process : 1
+2015-08-11 15:10:27,035 INFO org.apache.spark.SparkContext: Starting job: count at SparkExamples.java:28
+2015-08-11 15:10:27,073 INFO org.apache.spark.scheduler.DAGScheduler: Got job 0 (count at SparkExamples.java:28) with 1 output partitions (allowLocal=false)
+2015-08-11 15:10:27,078 INFO org.apache.spark.scheduler.DAGScheduler: Final stage: Stage 0(count at SparkExamples.java:28)
+2015-08-11 15:10:27,082 INFO org.apache.spark.scheduler.DAGScheduler: Parents of final stage: List()
+2015-08-11 15:10:27,118 INFO org.apache.spark.scheduler.DAGScheduler: Missing parents: List()
+2015-08-11 15:10:27,161 INFO org.apache.spark.scheduler.DAGScheduler: Submitting Stage 0 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23), which has no missing parents
+2015-08-11 15:10:27,443 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(2688) called with curMem=212390, maxMem=524400721
+2015-08-11 15:10:27,445 INFO org.apache.spark.storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 2.6 KB, free 499.9 MB)
+2015-08-11 15:10:27,455 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(1976) called with curMem=215078, maxMem=524400721
+2015-08-11 15:10:27,458 INFO org.apache.spark.storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 1976.0 B, free 499.9 MB)
+2015-08-11 15:10:27,465 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:39152 (size: 1976.0 B, free: 500.1 MB)
+2015-08-11 15:10:27,466 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_1_piece0
+2015-08-11 15:10:27,469 INFO org.apache.spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:839
+2015-08-11 15:10:27,524 INFO org.apache.spark.scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 0 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23)
+2015-08-11 15:10:27,541 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+2015-08-11 15:10:27,707 INFO org.apache.spark.scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, PROCESS_LOCAL, 1335 bytes)
+2015-08-11 15:10:27,751 INFO org.apache.spark.executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+2015-08-11 15:10:27,923 INFO org.apache.spark.rdd.HadoopRDD: Input split: file:/home/training/training_materials/developer/data/shakespeare/poems:0+268140
+2015-08-11 15:10:28,092 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+2015-08-11 15:10:28,092 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2015-08-11 15:10:28,093 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+2015-08-11 15:10:28,097 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2015-08-11 15:10:28,103 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+2015-08-11 15:10:28,465 INFO org.apache.spark.executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 1830 bytes result sent to driver
+2015-08-11 15:10:28,550 INFO org.apache.spark.scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 870 ms on localhost (1/1)
+2015-08-11 15:10:28,559 INFO org.apache.spark.scheduler.DAGScheduler: Stage 0 (count at SparkExamples.java:28) finished in 0.937 s
+2015-08-11 15:10:28,561 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2015-08-11 15:10:28,596 INFO org.apache.spark.scheduler.DAGScheduler: Job 0 finished: count at SparkExamples.java:28, took 1.555982 s
+2015-08-11 15:10:36,451 INFO org.apache.spark.SparkContext: Starting job: first at SparkExamples.java:29
+2015-08-11 15:10:36,455 INFO org.apache.spark.scheduler.DAGScheduler: Got job 1 (first at SparkExamples.java:29) with 1 output partitions (allowLocal=true)
+2015-08-11 15:10:36,455 INFO org.apache.spark.scheduler.DAGScheduler: Final stage: Stage 1(first at SparkExamples.java:29)
+2015-08-11 15:10:36,455 INFO org.apache.spark.scheduler.DAGScheduler: Parents of final stage: List()
+2015-08-11 15:10:36,459 INFO org.apache.spark.scheduler.DAGScheduler: Missing parents: List()
+2015-08-11 15:10:36,460 INFO org.apache.spark.scheduler.DAGScheduler: Submitting Stage 1 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23), which has no missing parents
+2015-08-11 15:10:36,466 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(2712) called with curMem=217054, maxMem=524400721
+2015-08-11 15:10:36,469 INFO org.apache.spark.storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 2.6 KB, free 499.9 MB)
+2015-08-11 15:10:36,473 INFO org.apache.spark.storage.MemoryStore: ensureFreeSpace(1998) called with curMem=219766, maxMem=524400721
+2015-08-11 15:10:36,476 INFO org.apache.spark.storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1998.0 B, free 499.9 MB)
+2015-08-11 15:10:36,478 INFO org.apache.spark.storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:39152 (size: 1998.0 B, free: 500.1 MB)
+2015-08-11 15:10:36,479 INFO org.apache.spark.storage.BlockManagerMaster: Updated info of block broadcast_2_piece0
+2015-08-11 15:10:36,482 INFO org.apache.spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:839
+2015-08-11 15:10:36,482 INFO org.apache.spark.scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 1 (/home/training/training_materials/developer/data/shakespeare/poems MapPartitionsRDD[1] at textFile at SparkExamples.java:23)
+2015-08-11 15:10:36,483 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+2015-08-11 15:10:36,487 INFO org.apache.spark.scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, localhost, PROCESS_LOCAL, 1335 bytes)
+2015-08-11 15:10:36,488 INFO org.apache.spark.executor.Executor: Running task 0.0 in stage 1.0 (TID 1)
+2015-08-11 15:10:36,499 INFO org.apache.spark.rdd.HadoopRDD: Input split: file:/home/training/training_materials/developer/data/shakespeare/poems:0+268140
+2015-08-11 15:10:36,529 INFO org.apache.spark.executor.Executor: Finished task 0.0 in stage 1.0 (TID 1). 1795 bytes result sent to driver
+2015-08-11 15:10:36,556 INFO org.apache.spark.scheduler.DAGScheduler: Stage 1 (first at SparkExamples.java:29) finished in 0.068 s
+2015-08-11 15:10:36,557 INFO org.apache.spark.scheduler.DAGScheduler: Job 1 finished: first at SparkExamples.java:29, took 0.104670 s
+2015-08-11 15:10:36,562 INFO org.apache.spark.scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 69 ms on localhost (1/1)
+2015-08-11 15:10:36,562 INFO org.apache.spark.scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2015-08-11 15:11:19,057 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2015-08-11 15:11:19,059 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2015-08-11 15:11:19,060 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+2015-08-11 15:11:19,063 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+2015-08-11 15:11:19,064 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2015-08-11 15:11:19,068 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2015-08-11 15:11:19,069 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2015-08-11 15:11:19,070 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+2015-08-11 15:11:19,075 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2015-08-11 15:11:19,076 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+2015-08-11 15:11:19,077 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2015-08-11 15:11:19,083 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2015-08-11 15:11:19,087 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2015-08-11 15:11:19,089 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+2015-08-11 15:11:19,090 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2015-08-11 15:11:19,093 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2015-08-11 15:11:19,094 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2015-08-11 15:11:19,099 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2015-08-11 15:11:19,100 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2015-08-11 15:11:19,104 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+2015-08-11 15:11:19,105 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2015-08-11 15:11:19,107 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2015-08-11 15:11:19,110 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2015-08-11 15:11:19,112 INFO org.spark-project.jetty.server.handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2015-08-11 15:11:19,188 INFO org.apache.spark.ui.SparkUI: Stopped Spark web UI at http://easternct.bigdata.edu:4040
+2015-08-11 15:11:19,221 INFO org.apache.spark.scheduler.DAGScheduler: Stopping DAGScheduler
+2015-08-11 15:11:19,337 INFO org.apache.spark.MapOutputTrackerMasterActor: MapOutputTrackerActor stopped!
+2015-08-11 15:11:19,403 INFO org.apache.spark.storage.MemoryStore: MemoryStore cleared
+2015-08-11 15:11:19,414 INFO org.apache.spark.storage.BlockManager: BlockManager stopped
+2015-08-11 15:11:19,426 INFO org.apache.spark.storage.BlockManagerMaster: BlockManagerMaster stopped
+2015-08-11 15:11:19,455 INFO org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorActor: OutputCommitCoordinator stopped!
+2015-08-11 15:11:19,489 INFO org.apache.spark.SparkContext: Successfully stopped SparkContext
+2015-08-11 15:11:19,543 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+2015-08-11 15:11:19,566 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+2015-08-11 15:11:19,790 INFO akka.remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
